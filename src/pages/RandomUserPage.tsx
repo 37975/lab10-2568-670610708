@@ -1,7 +1,7 @@
 import { UserCard } from "../components/UserCard";
 import { cleanUser } from "../libs/CleanUser";
 import axios from "axios";
-import { useState, useEffect, use } from "react";
+import { useState, useEffect } from "react";
 export default function RandomUserPage() {
   const [users, setUsers] = useState<any>([]);
   const [isLoading, setIsLoading] = useState(false);
